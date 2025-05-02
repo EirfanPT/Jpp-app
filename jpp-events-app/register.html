@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register for Event</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <header class="p-4 bg-blue-600 text-white text-center text-2xl">Event Registration</header>
+  <main class="p-4 max-w-md mx-auto">
+    <form id="registerForm" class="bg-white p-4 shadow rounded">
+      <input type="text" id="name" placeholder="Name" required class="border p-2 w-full mb-2" />
+      <input type="email" id="email" placeholder="Email" required class="border p-2 w-full mb-2" />
+      <select id="event" required class="border p-2 w-full mb-2">
+        <option value="">Select Event</option>
+      </select>
+      <button type="submit" class="bg-blue-600 text-white p-2 w-full">Register</button>
+    </form>
+  </main>
+  <script src="js/register.js"></script>
+</body>
+</html>
